@@ -178,6 +178,18 @@ h2 {
   font-weight: 700;
   margin-bottom: 1rem;
 }
+.avatar_ito {
+  width: 100%;
+  aspect-ratio: 1.2;
+  background-image: url("img/ito.jpg");
+  background-size: cover;
+  border-radius: 14px;
+  display: grid;
+  place-items: center;
+  color: var(--muted);
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
 
 table {
   width: 100%;
