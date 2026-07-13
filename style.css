@@ -191,6 +191,24 @@ h2 {
   margin-bottom: 1rem;
 }
 
+.about-figure {
+  margin: 2rem auto;
+  max-width: 780px;
+  text-align: center;
+}
+.about-figure img {
+  width: 100%;
+  height: auto;
+  border-radius: var(--radius);
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow);
+}
+.about-figure figcaption {
+  margin-top: 0.7rem;
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+
 table {
   width: 100%;
   border-collapse: collapse;
